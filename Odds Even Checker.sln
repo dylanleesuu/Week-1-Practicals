@@ -1,25 +1,11 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odds Even Checker", "Odds Even Checker\Odds Even Checker.csproj", "{5981C037-F60C-4C14-B9F6-084811C1DB3F}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5981C037-F60C-4C14-B9F6-084811C1DB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5981C037-F60C-4C14-B9F6-084811C1DB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5981C037-F60C-4C14-B9F6-084811C1DB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5981C037-F60C-4C14-B9F6-084811C1DB3F}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {27E773BC-96AC-433B-96DD-4E2677DC7FC4}
-	EndGlobalSection
-EndGlobal
+Console.WriteLine("Please enter an integer");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 0)
+{
+    Console.WriteLine("Is Even");
+}
+else if (num % 2 != 0)
+{
+    Console.WriteLine("Is Odd");
+}
